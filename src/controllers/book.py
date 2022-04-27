@@ -1,5 +1,6 @@
+from collections.abc import MutableMapping
 from flask import Flask
-from flask_restplus  import Resource
+from flask_restplus  import Api, Resource
 
 from src.server.instance import server
 
@@ -11,7 +12,7 @@ books_db = [
     {"id":1, "title":"Clean Code"}
 ]
 
-@api.router('/books')
+@app.route('/books')
 class BookList(Resource):
 
     def get(self, ):

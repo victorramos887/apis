@@ -1,3 +1,4 @@
+from collections.abc import MutableMapping
 from flask import Flask
 from flask_restplus import Api
 
