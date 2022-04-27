@@ -1,5 +1,5 @@
 from flask import Flask
-from flask_restx  import Api, Resource
+from flask_restplus  import Resource
 
 from src.server.instance import server
 
