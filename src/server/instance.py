@@ -18,3 +18,4 @@ class Server():
         )
 
 
+server = Server()
