@@ -1,10 +1,10 @@
 from collections.abc import MutableMapping
 from flask import Flask
-from flask_restplus  import Api, Resource
+from flask_restplus  import api, Resource
 
 from src.server.instance import server
 
-app, api = server.app, server.api
+app, apis = server.app, server.apis
 
 
 books_db = [
@@ -19,6 +19,6 @@ class BookList(Resource):
         return books_db
 
     def post(self, ):
-        response = api.payload
+        response = apis.payload
         books_db.append(response)
         return response, 200

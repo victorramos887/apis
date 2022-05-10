@@ -1,2 +1,1 @@
-from flask_restplus import Api
-
+import flask_restplus
