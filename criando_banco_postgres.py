@@ -54,9 +54,9 @@ TABLES['Usuarios'] = """CREATE TABLE cursoflask.usuarios(
 # print(TABLES)
 # print('---')
 
-for table_nome in TABLES.keys():
-    table_sql = TABLES[table_nome]
-    print(table_sql)
+for table_nome in TABLES.items():
+    table_sql = TABLES[table_nome[0]]
+    print(table_nome[0])
     try:
         print(f'Criando Table {table_nome}', end = '\n')
         cursor.execute(table_sql)
