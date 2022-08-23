@@ -45,10 +45,11 @@ TABLES['Jogos'] =  """CREATE TABLE IF NOT EXISTS cursoflask.jogos (
     )"""
 
 TABLES['Usuarios'] = """CREATE TABLE cursoflask.usuarios(
+      id SERIAL,
       nome varchar(20) NOT NULL,
       nickname varchar(8) NOT NULL,
       senha varchar(100) NOT NULL,
-      PRIMARY KEY (nickname)
+      PRIMARY KEY (id)
       )"""
 
 # print(TABLES)
