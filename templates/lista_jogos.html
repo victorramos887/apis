@@ -1,0 +1,51 @@
+
+<style>
+    .jogostable{
+        border-collapse:collapse;
+        margin:25px 0;
+        font-size:0.9cm;
+        min-width: 400px;
+    }
+
+    .jogostable thead tr {
+        background-color: #009879;
+        color:white;
+        text-align: left;
+        font-weight: bold;
+    }
+   
+   .jogostable th,
+   .jogostable td {
+        padding: 12px 15px;
+   }
+
+   .jogostable tbody tr {
+        border-bottom:1px solid #dddddd;
+   }
+
+   .jogostable tbody tr:nth-of-type(2n+3) {
+        background-color: #f3f3f3;
+   }
+
+   /* .jogostable tbody tr:last-of-type{
+        border-bottom:2px solid #009879;
+   } */
+</style>
+    <table class = 'jogostable'>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Categoria</th>
+                <th>Console</th>
+            </tr>
+        </thead>
+        {% for jogo in jogos%}
+        <tbody>
+            <tr>
+                <td value="{{ jogo.id }}">{{ jogo.nome }}</td>
+                <td value = '{{jogo.id}}'>{{jogo.categoria}}</td>
+                <td value = '{{jogo.id}}'>{{jogo.console}}</td>
+            </tr>
+        </tbody>
+        {% endfor %}
+    </table>

@@ -26,8 +26,7 @@ class Jogos(db.Model):
     console = db.Column(db.String(20), nullable=False)
 
     def __repr__(self):
-
-        return '<Name %r>' % self.name
+        return '<Name %r>' % self.nome
 
 class Usuarios(db.Model):
     __table_args__ = {'schema':'cursoflask'}
@@ -38,12 +37,13 @@ class Usuarios(db.Model):
     senha = db.Column(db.String(100), nullable=False)
 
     def __repr__(self):
-        return '<Name %r>' %self.name
+        return '<Name %r>' %self.nome
 
 @app.route('/')
 def index():
-    lista = Jogos.query.order_by(Jogos.id)
-    return 'Nada'
+    jogos = Jogos.query.order_by(Jogos.id).all()
+    print(jogos)
+    return render_template('lista_jogos.html', jogos= jogos)
 
 
 #>>> stmt = delete(user_table).where(user_table.c.name == 'patrick')
