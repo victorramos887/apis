@@ -1,6 +1,5 @@
-from flask import Flask
+from flask import Flask, render_template, request, redirect, session
 from flask_sqlalchemy import SQLAlchemy
-from flask import render_template
 
 app = Flask(__name__)
 app.secret_key = 'postgres'
@@ -46,8 +45,32 @@ def index():
     return render_template('lista_jogos.html', jogos= jogos)
 
 
-#>>> stmt = delete(user_table).where(user_table.c.name == 'patrick')
+@app.route('/login')
+def login():
+#proxima = 'lista_jogos.html'
+    return render_template('login.html')
 
+
+@app.route('/autenticar', methods= ['POST'])
+def autenticar():
+    usuario = Usuarios.query.filter_by(nickname=request.form['usuario']).first()
+    if usuario:
+        if request.form['usuario'] in usuarios:
+            usuario = usuarios[request.form['usuario']]
+            if request.form['senha'] == usuario.senha:
+                session['usuario_logado'] = usuario.nickname
+                flash(usuario.nickname + 'logado com sucesso!')
+                proxima_pagina = request.form['proxima']
+                return rdirect(proxima_pagina)
+        else:
+            flask('Usuário não logado.')
+            return redirect('Naõ achado')
+
+@app.route('/logout')
+def logout():
+    session['usuarios_logado'] = None
+    flask('Logout efetuado com sucesso!!')
+    return redirect(url_for('index'))
 
 @app.route('/apagar/<id>')
 def apagar(id):

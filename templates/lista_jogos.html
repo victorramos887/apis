@@ -1,14 +1,33 @@
 
 <style>
+
+    div{
+        display: inline-block;
+    }
+
+    .table_div{
+
+    }
+
+    .button_div{
+        width: 100pt;
+        height: 100pt;
+        position: relative;
+        margin-top: 60%;
+    }
+
     .jogostable{
         border-collapse:collapse;
         margin:25px 0;
         font-size:0.9cm;
         min-width: 400px;
+        flex-direction: row;
+        position: absolute;
+        left: 33%;
     }
 
     .jogostable thead tr {
-        background-color: #009879;
+        background-color: #12a8d5;
         color:white;
         text-align: left;
         font-weight: bold;
@@ -27,31 +46,51 @@
         background-color: #f3f3f3;
    }
 
-   
+   h1{
+    position: relative;
+    margin-left: 46%;
+    font-size: 50pt;
+   }
    /* .jogostable tbody tr:last-of-type{
         border-bottom:2px solid #009879;
    } */
+
+   /* input, .Check-value{
+        margin-top: 80%;
+        width: 50pt;
+        height: 300pt;
+   } */
 </style>
-    <table class = 'jogostable'>
-        <thead>
-            <tr>
-                <th>Id</th>
-                <th>Nome</th>
-                <th>Categoria</th>
-                <th>Console</th>
-            </tr>
-        </thead>
-        {% for jogo in jogos%}
-        <tbody>
-            <tr id = '{{jogo.id}}'>
-                <td value = '{{jogo.id}}' class = 'id'> {{jogo.id}}</td>
-                <td value='{{ jogo.id }}' class = 'nome' >{{ jogo.nome }}</td>
-                <td value = '{{jogo.id}}' class = 'categoria'>{{jogo.categoria}}</td>
-                <td value = '{{jogo.id}}'class = 'console' >{{jogo.console}}</td>
-            </tr>
-        </tbody>
-        {% endfor %}
-    </table>
+
+<h1>
+    Jogos
+</h1>
+    <div class = 'table_div'>
+        <table class = 'jogostable'>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Nome</th>
+                    <th>Categoria</th>
+                    <th>Console</th>
+                </tr>
+            </thead>
+            {% for jogo in jogos%}
+            <tbody>
+                <tr id = '{{jogo.id}}'>
+                    <td value = '{{jogo.id}}' class = 'id'> {{jogo.id}}</td>
+                    <td value='{{ jogo.id }}' class = 'nome' >{{ jogo.nome }}</td>
+                    <td value = '{{jogo.id}}' class = 'categoria'>{{jogo.categoria}}</td>
+                    <td value = '{{jogo.id}}'class = 'console' >{{jogo.console}}</td>
+                </tr>
+            </tbody>
+            {% endfor %}
+        </table>
+    </div>
+    <br>
+    <div class = 'button_div'>
+        <input type="submit" name = 'Check-value'></input>
+    </div>
 
 <script>
 
