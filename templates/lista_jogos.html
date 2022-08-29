@@ -23,10 +23,11 @@
         border-bottom:1px solid #dddddd;
    }
 
-   .jogostable tbody tr:nth-of-type(2n+3) {
+   .jogostable tbody tr:nth-of-type(even) {
         background-color: #f3f3f3;
    }
 
+   
    /* .jogostable tbody tr:last-of-type{
         border-bottom:2px solid #009879;
    } */
@@ -34,6 +35,7 @@
     <table class = 'jogostable'>
         <thead>
             <tr>
+                <th>Id</th>
                 <th>Nome</th>
                 <th>Categoria</th>
                 <th>Console</th>
@@ -41,11 +43,28 @@
         </thead>
         {% for jogo in jogos%}
         <tbody>
-            <tr>
-                <td value="{{ jogo.id }}">{{ jogo.nome }}</td>
-                <td value = '{{jogo.id}}'>{{jogo.categoria}}</td>
-                <td value = '{{jogo.id}}'>{{jogo.console}}</td>
+            <tr id = '{{jogo.id}}'>
+                <td value = '{{jogo.id}}' class = 'id'> {{jogo.id}}</td>
+                <td value='{{ jogo.id }}' class = 'nome' >{{ jogo.nome }}</td>
+                <td value = '{{jogo.id}}' class = 'categoria'>{{jogo.categoria}}</td>
+                <td value = '{{jogo.id}}'class = 'console' >{{jogo.console}}</td>
             </tr>
         </tbody>
         {% endfor %}
     </table>
+
+<script>
+
+    var id = window.document.getElementsByClassName('id');
+    var id_tr = window.document.getElementsByTagName('tr')
+
+    // window.document.write(id[0].innerHTML.valueOf())
+
+    for(i = 0; i < id.length; i ++){
+
+        if(Number.parseInt(id[i].innerText)%2 == 0){
+            id_tr.namedItem(id[i].innerText).style.background = '#c5c5c5'
+        };
+    }
+
+</script>
