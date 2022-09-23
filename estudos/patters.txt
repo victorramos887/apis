@@ -1,0 +1,21 @@
+-- PADRÕES PARA ORGANIZAÇÃO DE UM PROJETO FLASK
+
+|__setup.py
+|__teste/
+|__delivery/
+	|__ __init__.py
+	|__ app.py
+	|__ _templates/
+	|	|__base.html
+	|___static/
+	|	|__js/
+	|	|__css/
+	|	|__img/
+	|___ext/
+		|__admin/
+		|__auth/
+		|__api/
+		|__config/
+		|__cli/
+		|__db/
+		|__site/
