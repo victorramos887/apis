@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T17:18:43.478Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="SLD5wVEbC0_9tHtICNLo" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T18:07:45.844Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="KvGClZ7PXuFf-v4EfoxU" version="20.5.3" type="github">
   <diagram id="ZHMlnCA3z6UdnJzUCb5i" name="Página-1">
-    <mxGraphModel dx="4299" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2997" dy="1125" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,13 +49,13 @@
         <mxCell id="hMiYWxqCcFL1-7lvP4ok-11" value="Investidos" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=default;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="-310" y="690" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hMiYWxqCcFL1-7lvP4ok-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hMiYWxqCcFL1-7lvP4ok-23" target="hMiYWxqCcFL1-7lvP4ok-53">
+        <mxCell id="hMiYWxqCcFL1-7lvP4ok-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hMiYWxqCcFL1-7lvP4ok-23" target="hMiYWxqCcFL1-7lvP4ok-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hMiYWxqCcFL1-7lvP4ok-23" value="Preenchimento" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=default;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="-50" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hMiYWxqCcFL1-7lvP4ok-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hMiYWxqCcFL1-7lvP4ok-25" target="hMiYWxqCcFL1-7lvP4ok-55">
+        <mxCell id="hMiYWxqCcFL1-7lvP4ok-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hMiYWxqCcFL1-7lvP4ok-25" target="hMiYWxqCcFL1-7lvP4ok-59">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="hMiYWxqCcFL1-7lvP4ok-25" value="Visualizações" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=default;gradientColor=none;" vertex="1" parent="1">
@@ -73,11 +73,61 @@
         <mxCell id="hMiYWxqCcFL1-7lvP4ok-34" value="Visualizações" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=default;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="-40" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hMiYWxqCcFL1-7lvP4ok-53" value="Formulário" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;rounded=1;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="140" y="40" width="120" height="80" as="geometry" />
+        <mxCell id="hMiYWxqCcFL1-7lvP4ok-57" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/evericons-24px-vol-2/24/database-128.png;strokeColor=#000000;fillColor=default;gradientColor=none;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="160" y="50" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="hMiYWxqCcFL1-7lvP4ok-55" value="Definir visualização" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#000000;rounded=1;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="140" y="180" width="120" height="80" as="geometry" />
+        <mxCell id="hMiYWxqCcFL1-7lvP4ok-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hMiYWxqCcFL1-7lvP4ok-59" target="hMiYWxqCcFL1-7lvP4ok-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hMiYWxqCcFL1-7lvP4ok-59" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/evericons-24px-vol-2/24/database-128.png;strokeColor=#000000;fillColor=default;gradientColor=none;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="160" y="190" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hMiYWxqCcFL1-7lvP4ok-61" value="Lista de ganhos" style="whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#000000;labelBackgroundColor=#ffffff;gradientColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hMiYWxqCcFL1-7lvP4ok-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="hMiYWxqCcFL1-7lvP4ok-65">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="79.99999999999955" y="370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hMiYWxqCcFL1-7lvP4ok-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="hMiYWxqCcFL1-7lvP4ok-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="79.99999999999955" y="510" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hMiYWxqCcFL1-7lvP4ok-65" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/evericons-24px-vol-2/24/database-128.png;strokeColor=#000000;fillColor=default;gradientColor=none;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="170" y="340" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hMiYWxqCcFL1-7lvP4ok-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hMiYWxqCcFL1-7lvP4ok-67" target="hMiYWxqCcFL1-7lvP4ok-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hMiYWxqCcFL1-7lvP4ok-67" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/evericons-24px-vol-2/24/database-128.png;strokeColor=#000000;fillColor=default;gradientColor=none;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="170" y="480" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hMiYWxqCcFL1-7lvP4ok-68" value="Lista de gastos" style="whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#000000;labelBackgroundColor=#ffffff;gradientColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hMiYWxqCcFL1-7lvP4ok-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="hMiYWxqCcFL1-7lvP4ok-71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="79.99999999999955" y="650" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hMiYWxqCcFL1-7lvP4ok-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="hMiYWxqCcFL1-7lvP4ok-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="79.99999999999955" y="790" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hMiYWxqCcFL1-7lvP4ok-71" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/evericons-24px-vol-2/24/database-128.png;strokeColor=#000000;fillColor=default;gradientColor=none;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="170" y="620" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hMiYWxqCcFL1-7lvP4ok-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hMiYWxqCcFL1-7lvP4ok-73" target="hMiYWxqCcFL1-7lvP4ok-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hMiYWxqCcFL1-7lvP4ok-73" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/evericons-24px-vol-2/24/database-128.png;strokeColor=#000000;fillColor=default;gradientColor=none;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry x="170" y="760" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hMiYWxqCcFL1-7lvP4ok-74" value="Lista de investimento" style="whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#000000;labelBackgroundColor=#ffffff;gradientColor=none;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="760" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
